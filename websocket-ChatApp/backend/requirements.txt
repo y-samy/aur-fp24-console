@@ -1,0 +1,7 @@
+flask
+opencv-python
+pyzbar
+numpy
+numpy
+flask-socketio
+flask-cors
