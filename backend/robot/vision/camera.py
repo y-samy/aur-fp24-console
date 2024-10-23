@@ -31,8 +31,10 @@ class VideoCamera(object):
             self.__cameras.append(cam.name)
         return self.__cameras
 
-    def pause_resume_stream(self):
+    def toggle_pause(self):
         self.__pause = not self.__pause
+
+    def get_pause_state(self):
         return self.__pause
     
     def is_scanning(self):
